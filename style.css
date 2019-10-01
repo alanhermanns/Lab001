@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./tounderstand.jpg);
+    background-size: cover;
+}
+.background {
+    border: 4px solid black;   
+    background-image: url(./tounderstand.jpg);
+    background-position: cover;
+    
+}
+.new-background {
+    color: black;
+    background: black;
+}
+h1{
+    display: flex;
+    text-align: center;
+    margin: 30%;
+    margin-bottom: 10%;
+    color: red;
+}
+.main-text{
+    display: flex;
+    text-align: center;
+    color: azure;
+    background: pink;
+
+}
+.disclaimer {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 400px;
+    height:100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+
+#result {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: rgb(180, 60, 180);
+    width: 300px;
+}
+
+.displayed{
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Areil';
+    font-weight: 100;
+    font-size: 40px;
+}
+.displayed #final-bit{
+    display: flex;
+    align-self: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.hidden{
+    display: none;
+}
